@@ -15,11 +15,11 @@
  * under the License.
  */
 
-name := "spark-bigquery"
-organization := "com.github.samelamin"
+name := "spark-bqs"
+organization := "com.github.holamap"
 scalaVersion := "2.11.8"
 crossScalaVersions := Seq("2.10.6", "2.11.8")
-spName := "samelamin/spark-bigquery"
+spName := "samelamin/spark-bqs"
 sparkVersion := "2.2.0"
 sparkComponents := Seq("core", "sql","streaming")
 spAppendScalaVersion := false
@@ -47,17 +47,17 @@ licenses += "Apache-2.0" -> url("http://opensource.org/licenses/Apache-2.0")
 releaseCrossBuild             := true
 releasePublishArtifactsAction := PgpKeys.publishSigned.value
 pomExtra                      := {
-  <url>https://github.com/samelamin/spark-bigquery</url>
+  <url>https://github.com/holamap/spark-bqs</url>
   <scm>
-    <url>git@github.com/samelamin/spark-bigquery.git</url>
-    <connection>scm:git:git@github.com:samelamin/spark-bigquery.git</connection>
+    <url>git@github.com/holamap/spark-bqs.git</url>
+    <connection>scm:git:git@github.com:holamap/spark-bqs.git</connection>
   </scm>
   <developers>
     <developer>
-      <id>samelamin</id>
-      <name>Sam Elamin</name>
-      <email>hussam.elamin@gmail.com</email>
-      <url>https://github.com/samelamin</url>
+      <id>mayureshp</id>
+      <name>mayureshp</name>
+      <email>pandey.mayuresh@googlemail.com</email>
+      <url>https://github.com/holamap</url>
     </developer>
   </developers>
 }
